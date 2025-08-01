@@ -16,6 +16,16 @@ p, a {
     font-size: 4.8rem;
 }
 
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+
 nav a {
     color: inherit;
 }
@@ -31,6 +41,7 @@ nav a {
     text-decoration: none;
     padding: 1.6rem 4.4rem;
     display: inline-block;
+    color: inherit;
 }
 
 .wrapperContainer-dark {
@@ -50,6 +61,16 @@ nav a {
 .container {
     max-width: 127.6rem;
     margin: auto;
+}
+
+.section_title {
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.section_btn {
+    margin: 7rem 0;
 }
 
 .header {
@@ -89,5 +110,72 @@ nav a {
 
 .hero_title {
     margin-bottom: 5rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    flex: 1;
+}
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content {
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent; /* usado para deixar a borda de cima transparente e não prejudicar a imagem. */
+}
+
+.escola {
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 6rem;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.75;
+}
+
+.contatos_address {
+    text-align: right;
+    font: normal 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.footer a {
+    color: inherit;
 }
 

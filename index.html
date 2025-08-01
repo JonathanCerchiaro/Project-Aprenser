@@ -11,11 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="wrapperContainer-dark">
+    <div class="wrapperContainer wrapperContainer-dark">
       <header class="header container">
         <img src="imagens/logoAprenser.png" alt="Aprenser" />
 
@@ -29,19 +30,21 @@
       </header>
     </div>
 
-    <div class="wrapperContainer-hero">
+    <div class="wrapperContainer wrapperContainer-hero">
       <section class="container heroBanner">
         <div class="header_content">
-        <h1 class="hero_title">O saber é o que transforma nosso <span class="upper">ser</span></h1>
-        <a href="#" class="btn">Saiba mais</a>
+          <h1 class="hero_title">
+            O saber é o que transforma nosso <span class="upper">ser</span>
+          </h1>
+          <a href="#" class="btn">Saiba mais</a>
         </div>
         <img src="imagens/HeroImage.png" alt="Mulher segurando flores" />
       </section>
     </div>
 
-    <div class="wrapperContainer-light">
+    <div class="wrapperContainer wrapperContainer-light">
       <section id="cursos" class="cursos container">
-        <h2>Principais Cursos</h2>
+        <h2 class="section_title">Principais Cursos</h2>
         <div class="cursosContainer">
           <article class="curso_card">
             <img src="imagens/curso-design.png" alt="Curso design" />
@@ -79,32 +82,43 @@
             </div>
           </article>
         </div>
-        <a href="#" class="btn">Ver mais cursos</a>
+        <a href="#" class="btn section_btn">Ver mais cursos</a>
       </section>
     </div>
 
-    <div class="wrapperContainer-dark2">
-      <section class="container" id="escola">
+    <div class="wrapperContainer wrapperContainer-dark2">
+      <section class="container escola" id="escola">
         <img src="imagens/nossa-escola.png" alt="Mulher jovem feliz" />
-        <h2>Nossa escola</h2>
-        <p>
-          Aprenda habilidades tecnológicas em demanda e alcance seus objetivos
-          de carreira com a nossa escola de tecnologia online. Oferecemos uma
-          ampla gama de cursos online, desde programação e desenvolvimento de
-          software até design gráfico e análise de dados. Nossos instrutores
-          experientes fornecerão a você um ambiente de aprendizado interativo e
-          de suporte para ajudá-lo a adquirir as habilidades necessárias para
-          ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada
-          para se tornar um profissional de tecnologia bem-sucedido.
-        </p>
+        <div class="escola_content">
+          <h2 class="escola_title">Nossa escola</h2>
+          <p>
+            Aprenda habilidades tecnológicas em demanda e alcance seus objetivos
+            de carreira com a nossa escola de tecnologia online. Oferecemos uma
+            ampla gama de cursos online, desde programação e desenvolvimento de
+            software até design gráfico e análise de dados. Nossos instrutores
+            experientes fornecerão a você um ambiente de aprendizado interativo
+            e de suporte para ajudá-lo a adquirir as habilidades necessárias
+            para ter sucesso em sua carreira. Inscreva-se agora e comece sua
+            jornada para se tornar um profissional de tecnologia bem-sucedido.
+          </p>
+        </div>
       </section>
     </div>
 
-    <div class="wrapperContainer-light">
+    <div class="wrapperContainer wrapperContainer-light">
       <section class="container" id="contatos">
-        <h2>Contatos</h2>
-        <img src="imagens/map.png" alt="" />
-        <address>
+        <h2 class="section_title">Contatos</h2>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1753993028509!5m2!1spt-BR!2sbr!6m8!1m7!1s1sM-U3ubSkjGlGGWCsocvA!2m2!1d-28.45886495321678!2d-52.8196123351138!3f189.17529625039955!4f0!5f0.7820865974627469"
+          width="100%"
+          height="525px"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <address class="contatos_address">
           Av. da Liberdade, 1001<br />
           Tel.: +351 21 123 456<br />
           E-mail: contato@aprenser.com
@@ -112,8 +126,8 @@
       </section>
     </div>
 
-    <div class="wrapperContainer-dark">
-      <footer>Desenvolvido por <a href="https://serlive.com">Serliv</a></footer>
+    <div class="wrapperContainer wrapperContainer-dark">
+      <footer class="footer">Desenvolvido por <a href="https://serlive.com">Serliv</a></footer>
     </div>
   </body>
 </html>
